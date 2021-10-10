@@ -12,6 +12,13 @@
         <title>Login</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Login</h1>
+        <label>Username </label>
+        <input type="text" name="username" value="${AccountService.username}">
+        <br>
+        <label>Password: </label>
+        <input type="text" name="password">${AccountService.password}</input>
+        <br>
+        <input type="submit" value="Log In">
     </body>
 </html>
