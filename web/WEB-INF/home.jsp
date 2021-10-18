@@ -1,9 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : 6-Oct-2021, 1:52:07 PM
-    Author     : mujta
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,6 +7,7 @@
     </head>
     <body>
         <h1>Home Page</h1>
-        
+        <h4>Hello ${username}</h4>
+        <a href="login?logout">Log Out</a>
     </body>
 </html>
